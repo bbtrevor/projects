@@ -12,11 +12,6 @@ public class Main {
      * @param args Given arguments
      */
     public static void main(String[] args) {
-        try {
-            new GUI();
-        }
-        catch (Exception e) {
-            System.out.println("caught.");
-        }
+        new GUI();
     }
 }
