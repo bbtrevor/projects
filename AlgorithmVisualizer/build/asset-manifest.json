@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/algorithm-visualizer/static/css/main.0589ab9d.chunk.css",
+    "main.js": "/algorithm-visualizer/static/js/main.247abac6.chunk.js",
+    "main.js.map": "/algorithm-visualizer/static/js/main.247abac6.chunk.js.map",
+    "runtime-main.js": "/algorithm-visualizer/static/js/runtime-main.f2c68566.js",
+    "runtime-main.js.map": "/algorithm-visualizer/static/js/runtime-main.f2c68566.js.map",
+    "static/css/2.383c0125.chunk.css": "/algorithm-visualizer/static/css/2.383c0125.chunk.css",
+    "static/js/2.bb8853fd.chunk.js": "/algorithm-visualizer/static/js/2.bb8853fd.chunk.js",
+    "static/js/2.bb8853fd.chunk.js.map": "/algorithm-visualizer/static/js/2.bb8853fd.chunk.js.map",
+    "static/js/3.d19c3d8a.chunk.js": "/algorithm-visualizer/static/js/3.d19c3d8a.chunk.js",
+    "static/js/3.d19c3d8a.chunk.js.map": "/algorithm-visualizer/static/js/3.d19c3d8a.chunk.js.map",
+    "index.html": "/algorithm-visualizer/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/algorithm-visualizer/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.0589ab9d.chunk.css.map": "/algorithm-visualizer/static/css/main.0589ab9d.chunk.css.map",
+    "static/js/2.bb8853fd.chunk.js.LICENSE.txt": "/algorithm-visualizer/static/js/2.bb8853fd.chunk.js.LICENSE.txt",
+    "static/media/dijkstras_tutorial_1.a1d0377e.PNG": "/algorithm-visualizer/static/media/dijkstras_tutorial_1.a1d0377e.PNG",
+    "static/media/dijkstras_tutorial_2_resized.c1364881.gif": "/algorithm-visualizer/static/media/dijkstras_tutorial_2_resized.c1364881.gif",
+    "static/media/dijkstras_tutorial_3_resized.14b98ccd.gif": "/algorithm-visualizer/static/media/dijkstras_tutorial_3_resized.14b98ccd.gif",
+    "static/media/dijkstras_tutorial_4_resized.460a1cd9.gif": "/algorithm-visualizer/static/media/dijkstras_tutorial_4_resized.460a1cd9.gif",
+    "static/media/dijkstras_tutorial_5_resized.b7c0df27.gif": "/algorithm-visualizer/static/media/dijkstras_tutorial_5_resized.b7c0df27.gif",
+    "static/media/dijkstras_tutorial_6.072c2c26.PNG": "/algorithm-visualizer/static/media/dijkstras_tutorial_6.072c2c26.PNG",
+    "static/media/dijkstras_tutorial_7_resized.92df0b9c.gif": "/algorithm-visualizer/static/media/dijkstras_tutorial_7_resized.92df0b9c.gif",
+    "static/media/dijkstras_tutorial_8_resized.076164fa.gif": "/algorithm-visualizer/static/media/dijkstras_tutorial_8_resized.076164fa.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2c68566.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.bb8853fd.chunk.js",
+    "static/css/main.0589ab9d.chunk.css",
+    "static/js/main.247abac6.chunk.js"
+  ]
+}

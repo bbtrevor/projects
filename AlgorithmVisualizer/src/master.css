@@ -1,0 +1,267 @@
+body {
+    background-color: white;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-size: 30px !important;
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    background-color: #22577E;
+    height: 5.5rem;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    margin: 0;
+    padding-top: 1.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+
+.interactive-box {
+    height: 40px;
+    background-color: #22577E;
+    width: 100%;
+    
+}
+
+.btn {
+    border-radius: 8px !important;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.drop-down-box {
+    height: auto;
+    margin: 0;
+    background-color: #22577E;
+    width: 100%;
+    transition: all .5s ease;
+    padding-bottom: 10px;
+}
+
+.drop-down-active {
+    height: auto;
+    display: inline-block;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.drop-down-box-text {
+    margin-top: 10px;
+    color: white;
+}
+
+#options-dropdown {
+    position: relative;
+    float: left;
+    width: 200px;
+
+}
+
+.dropdown-arrow {
+    font-size: 12px;
+    position: relative;
+    bottom: 0px;
+}
+
+#options-dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    background-color: #22577E;
+    z-index: 10;
+}
+
+#options-button {
+    padding: 5px 20px 5px 20px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.options {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+a.options:hover {
+    color: #16d038;
+}
+
+
+
+button:hover {
+    border: 1px solid #16d038 !important;
+    border-radius: 8px !important;
+    color: #16d038 !important;
+    
+}
+
+.run-algorithm {
+    border: none !important;
+    background-color: #16d038 !important;
+    color: black;
+}
+
+button.run-algorithm:hover {
+    color: white !important;
+}
+
+button.run-algorithm:hover {
+    color: white !important;
+}
+
+#tutorial-button {
+    float: left;
+    padding: 5px 20px 5px 20px;
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#popup {
+    padding: 5px 10px;
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    top: 220px;
+    left: -webkit-calc(50% - 300px);
+    border: 2px solid black;
+    border-radius: 8px;
+    z-index: 30;
+}
+
+.popup-notice {
+    height: 400px !important;
+}
+
+.tutorial-button-quit {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+.tutorial-button-next {
+    margin-right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+}
+
+#graph {
+    height: 100%;
+    width: 90%;
+    padding: 10px;
+    position: relative;
+    margin: 25px auto;
+    border: 1px solid black;
+}
+.graph-container {
+    height: 1000px;
+    width: 100%;
+}
+
+@keyframes opac-change {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.deleted-element {
+    animation-name: opac-fade-out;
+    animation-duration: .3s;
+}
+
+@keyframes opac-fade-out {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+}
+
+.choose-algorithm {
+    text-align: left;
+    float: left;
+    position: relative;
+    left: -webkit-calc(220px + 10%);
+    color: white;
+}
+
+.default-color {
+    background-color: #162447;
+}
+
+.node {
+    transition: background-color 150ms linear;
+    border-radius: 12px;
+    z-index: 15;
+}
+
+div.node:hover {
+    background-color: lightblue;
+    z-index: 50;
+}
+
+.created-element {
+    animation-name: opac-change;
+    animation-duration: .3s;
+}
+
+.selected-element {
+    transition: background-color 150ms linear;
+    background-color: lightblue;
+    z-index: 5
+}
+
+.unselected-node {
+    animation-name: unselected-node-color;
+    animation-duration: 1s;
+    background-color: #162447;
+}
+
+.edge {
+    position: absolute;
+}
+
+div.edge:hover {
+    background-color: lightblue;
+    z-index: 2;
+}
